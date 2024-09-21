@@ -44,12 +44,13 @@ header nav a:hover {
 }
 
 section {
-    padding: 90px 100px;
+    padding: 90px 80px;
     text-align: center;
 }
 
 .star-separator{
     width: 200px;
+    margin: 20px 0;
 }
 
 section#me{
@@ -58,23 +59,19 @@ section#me{
 }
 
 section#me img.avatar{
-    width: 240px;
+    max-width: 240px;
+    min-width: 100px;
     height: auto;
 }
 
 section h1 {
-    font-size: 48pt;
+    font-size: 32pt;
     font-weight: 800;
 }
 
 section h2 {
     font-size: 32pt;
     font-weight: 800;
-    margin-bottom: 15px;
-}
-
-section .title {
-    margin-bottom: 30px;
 }
 
 section#portfolio h2 {
@@ -87,14 +84,15 @@ section#portfolio h2 {
 
 .portfolio-items .portfolio-item {
     display: inline-block;
-    width: 300px;
+    min-width: 200px;
+    max-width: 500px;
     text-align: center;
-    padding: 10px;
-    margin: 5px
+    padding: 20px;
 }
 
 .portfolio-items .portfolio-item img {
     width: 100%;
+    max-width: 500px;
 }
 
 .portfolio-items .portfolio-item h3 {
